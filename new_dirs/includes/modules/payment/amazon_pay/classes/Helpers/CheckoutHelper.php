@@ -33,8 +33,13 @@ class CheckoutHelper
     public function createCheckoutSession()
     {
         try {
+            $storeName = STORE_NAME;
+            $encoding = mb_detect_encoding($storeName, ['UTF-8', 'ISO-8859-1', 'ISO-8859-2', 'ISO-8859-15']);
+            if($encoding !== 'UTF-8'){
+                $storeName = mb_convert_encoding($storeName, 'UTF-8', $encoding);
+            }
+            $storeName = (mb_strlen($storeName) <= 50) ? $storeName : (mb_substr($storeName, 0, 47) . '...');
 
-            $storeName = (strlen(STORE_NAME) <= 50) ? STORE_NAME : (substr(STORE_NAME, 0, 47) . '...');
             $merchantData = new MerchantMetadata();
             $merchantData->setMerchantStoreName($storeName);
             $merchantData->setCustomInformation($this->configHelper->getCustomInformationString());
