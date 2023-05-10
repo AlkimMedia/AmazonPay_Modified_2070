@@ -141,6 +141,25 @@ class CheckoutHelper
         $loginSignature = $this->getCachedSignature($loginPayload);
         $publicKeyId = $this->configHelper->getPublicKeyId();
         $useCreditUrl = xtc_href_link('callback/amazon_pay/use_credit.php', '', 'SSL');
+
+        global $product, $PHP_SELF;
+
+        if ($product && $product->isProduct && strpos($PHP_SELF, 'product_info.php') !== false) {
+            global $xtPrice;
+            $productPrice = $xtPrice->xtcGetPrice($product->pID, false, 1, $product->data['products_tax_class_id'], $product->data['products_price']);
+        } else {
+            $productPrice = 0;
+        }
+
+        $estimatedOrderAmount = json_encode([
+            'amount' => (string)($_SESSION['cart']->show_total()),
+            'currencyCode' => $_SESSION['currency'],
+        ]);
+        $estimatedOrderAmountInclProduct = json_encode([
+            'amount' => (string)($_SESSION['cart']->show_total() + $productPrice),
+            'currencyCode' => $_SESSION['currency'],
+        ]);
+
         $return = <<<EOT
                 <script src="https://static-eu.payments-amazon.com/checkout.js"></script>
                 <script type="text/javascript" charset="utf-8">
@@ -173,6 +192,7 @@ class CheckoutHelper
                                     url: '$createCheckoutSessionUrl'
                                 },
                                 sandbox: $isSandbox,
+                                estimatedOrderAmount: $estimatedOrderAmount,
                                 ledgerCurrency: '$ledgerCurrency',
                                 checkoutLanguage: '$language',
                                 productType: '$productType',
@@ -188,6 +208,7 @@ class CheckoutHelper
                         var btn = amazon.Pay.renderButton('#amazon-pay-button-manual', {
                             merchantId: '$merchantId',
                             sandbox: $isSandbox,
+                            estimatedOrderAmount: $estimatedOrderAmount,
                             ledgerCurrency: '$ledgerCurrency',
                             checkoutLanguage: '$language',
                             productType: '$productType',
@@ -209,6 +230,7 @@ class CheckoutHelper
                         var btn = amazon.Pay.renderButton('#amazon-pay-button-product-info', {
                             merchantId: '$merchantId',
                             sandbox: $isSandbox,
+                            estimatedOrderAmount: $estimatedOrderAmountInclProduct,
                             ledgerCurrency: '$ledgerCurrency',
                             checkoutLanguage: '$language',
                             productType: '$productType',
