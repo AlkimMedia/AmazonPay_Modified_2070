@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fd7eca2-7bf9-46ee-bb90-e7964bd5a789" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/AccountHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/AccountHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/AmazonPayHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/AmazonPayHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/CheckoutHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/CheckoutHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/ConfigHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/ConfigHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/OrderHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/OrderHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/TransactionHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/classes/Helpers/TransactionHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/includes/actions/checkout_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/includes/actions/checkout_process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/includes/actions/checkout_success.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/includes/actions/checkout_success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/includes/admin_application_top.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/includes/admin_application_top.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/includes/admin_order.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/includes/admin_order.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/Amazon/Pay/API/Client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/Amazon/Pay/API/ClientInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/Amazon/Pay/API/HttpCurl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/tests/unit/ClientTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/tests/unit/unit_test_key_private.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/amzn/amazon-pay-api-sdk-php/tests/unit/unit_test_key_public.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/.github/ISSUE_TEMPLATE/general_issue.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/src/Exception/InvalidSnsMessageException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/src/Message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/src/MessageValidator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/tests/FunctionalValidationsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/tests/MessageTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/tests/MessageValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/aws/aws-php-sns-message-validator/tests/MockPhpStream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/InstalledVersions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/autoload_files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/installed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/composer/platform_check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Client/Client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Exceptions/AmazonPayException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/Address.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/AddressRestrictions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/AmountBalance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/AmountLimit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/BillingAddress.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/Buyer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/CaptureAmount.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/Charge.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/ChargeAmount.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/ChargePermission.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/CheckoutSession.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/ConvertedAmount.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/DeliverySpecifications.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/Limits.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/MerchantMetadata.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/PaymentDetails.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/Price.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/ProviderMetadata.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/Refund.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/RefundAmount.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/RefundedAmount.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/ShippingAddress.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/StatusDetails.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/StructBase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/mkreusch/amzon-pay-api-extended-sdk/Struct/WebCheckoutDetails.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/BACKERS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/AES.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/Base.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/Blowfish.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/DES.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/Hash.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/RC2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/RC4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/RSA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/Random.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/Rijndael.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/TripleDES.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Crypt/Twofish.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/File/ANSI.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/File/ASN1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/File/ASN1/Element.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/File/X509.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Math/BigInteger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Net/SCP.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP/Stream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Net/SSH1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/System/SSH/Agent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/System/SSH/Agent/Identity.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/phpseclib/phpseclib/phpseclib/openssl.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/psr/http-message/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/psr/http-message/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/psr/http-message/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/psr/http-message/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/psr/http-message/src/MessageInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/psr/http-message/src/RequestInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/psr/http-message/src/ResponseInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/psr/http-message/src/ServerRequestInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/psr/http-message/src/StreamInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/psr/http-message/src/UploadedFileInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_dirs/includes/modules/payment/amazon_pay/vendor/psr/http-message/src/UriInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_files/amazon_pay_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_files/amazon_pay_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_files/includes/modules/payment/amazon_pay.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_files/includes/modules/payment/amazon_pay.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2SRIichGFQrCEoiUuwDieAPqP3s" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fd7eca2-7bf9-46ee-bb90-e7964bd5a789" name="Changes" comment="" />
+      <created>1689103094892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689103094892</updated>
+      <workItem from="1689103095905" duration="481000" />
+      <workItem from="1689103612301" duration="2525000" />
+      <workItem from="1689146695386" duration="715000" />
+      <workItem from="1689180299638" duration="4000" />
+      <workItem from="1689235477425" duration="661000" />
+      <workItem from="1689578760531" duration="145000" />
+      <workItem from="1697710776672" duration="522000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

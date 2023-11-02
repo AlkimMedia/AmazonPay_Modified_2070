@@ -1,0 +1,14 @@
+
+V	php:S1131Œ"@Remove the useless trailing whitespaces at the end of this line.(úìåâ
+[	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(ÙÆ§ûÿÿÿÿ
+_	php:S1808&"JPut one space between the closing parenthesis and the opening curly brace.(é¾Ùâ
+Y	php:S1808&"DPut one space between this "if" keyword and the opening parenthesis.(é¾Ùâ
+}php:S117«"cRename this local variable "$shipping_modules" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(å†ÏÂúÿÿÿÿ
+{php:S117¯"fRename this local variable "$order_total_modules" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(À«Øõ
+yphp:S117°"_Rename this local variable "$order_totals" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ğ¼Ã–ùÿÿÿÿ
+A	php:S1481|",Remove this unused "$jsPath" local variable.(‡…×¨
+g	php:S4833©"QReplace "require_once" with namespace import mechanism through the "use" keyword.(×…„‡
+l	php:S4833ª"QReplace "require_once" with namespace import mechanism through the "use" keyword.(­ÀĞÉúÿÿÿÿ
+l	php:S4833¬"QReplace "require_once" with namespace import mechanism through the "use" keyword.(»ÎúØúÿÿÿÿ
+g	php:S4833®"QReplace "require_once" with namespace import mechanism through the "use" keyword.(…½“‚
+php:S138q"uThis function "getJs" has 165 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(İ¸–èûÿÿÿÿ

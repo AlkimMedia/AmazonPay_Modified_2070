@@ -1,5 +1,6 @@
 {
     "require": {
-        "amzn/amazon-pay-api-sdk-php": "^2.1"
+        "mkreusch/amazon-pay-api-sdk-php-extension": "0.6.0",
+        "aws/aws-php-sns-message-validator": "^1.6"
     }
 }

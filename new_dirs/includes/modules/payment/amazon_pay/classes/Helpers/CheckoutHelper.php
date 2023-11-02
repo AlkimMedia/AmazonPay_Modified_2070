@@ -2,13 +2,13 @@
 
 namespace AlkimAmazonPay;
 
-use AmazonPayExtendedSdk\Struct\AddressRestrictions;
-use AmazonPayExtendedSdk\Struct\CheckoutSession;
-use AmazonPayExtendedSdk\Struct\DeliverySpecifications;
-use AmazonPayExtendedSdk\Struct\MerchantMetadata;
-use AmazonPayExtendedSdk\Struct\PaymentDetails;
-use AmazonPayExtendedSdk\Struct\Price;
-use AmazonPayExtendedSdk\Struct\WebCheckoutDetails;
+use AmazonPayApiSdkExtension\Struct\AddressRestrictions;
+use AmazonPayApiSdkExtension\Struct\CheckoutSession;
+use AmazonPayApiSdkExtension\Struct\DeliverySpecifications;
+use AmazonPayApiSdkExtension\Struct\MerchantMetadata;
+use AmazonPayApiSdkExtension\Struct\PaymentDetails;
+use AmazonPayApiSdkExtension\Struct\Price;
+use AmazonPayApiSdkExtension\Struct\WebCheckoutDetails;
 use order;
 use order_total;
 use shipping;
