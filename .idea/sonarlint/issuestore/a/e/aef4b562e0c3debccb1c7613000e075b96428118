@@ -1,5 +1,0 @@
-
-f	php:S1808)"JPut one space between the closing parenthesis and the opening curly brace.(ºäÞÉ8£¬Ø´”1
-`	php:S1808)"DPut one space between this "if" keyword and the opening parenthesis.(ºäÞÉ8£¬Ø´”1
-‰	php:S1448"hClass "ConfigHelper" has 27 methods, which is greater than 20 authorized. Split it into smaller classes.(àƒš›ùÿÿÿÿ8Êï¢³”1
-m	php:S4833%"QReplace "require_once" with namespace import mechanism through the "use" keyword.(à¡Ðÿ8Êï¢³”1
