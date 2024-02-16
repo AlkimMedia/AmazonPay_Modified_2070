@@ -13,19 +13,19 @@ $amazonPayHelper = new \AlkimAmazonPay\AmazonPayHelper;
 $token           = $_GET['buyerToken'];
 $buyer = $amazonPayHelper->getClient()->getBuyer($token);
 
-$q  = "SELECT * FROM " . TABLE_CUSTOMERS . " WHERE customers_email_address = '" . xtc_db_input($buyer['email']) . "' and account_type = '0'";
+$q  = "SELECT * FROM " . TABLE_CUSTOMERS . " WHERE customers_email_address = '" . xtc_db_input($buyer->getEmail()) . "' and account_type = '0'";
 $rs = xtc_db_query($q);
 if ($r = xtc_db_fetch_array($rs)) {
     $accountHelper->doLogin($r['customers_id']);
 } else {
     require_once DIR_FS_INC . 'xtc_create_password.inc.php';
     $password = xtc_create_password(32);
-    $names    = explode(' ', $buyer['name']);
+    $names    = explode(' ', $buyer->getName());
     if (count($names) > 1) {
         $lastName  = array_pop($names);
         $firstName = implode(' ', $names);
     } else {
-        $lastName  = $buyer['name'];
+        $lastName  = $buyer->getName();
         $firstName = '';
     }
     $sql_data_array = [
@@ -34,7 +34,7 @@ if ($r = xtc_db_fetch_array($rs)) {
         'customers_firstname' => $firstName,
         'customers_lastname' => $lastName,
         'customers_dob' => '0000-00-00 00:00:00',
-        'customers_email_address' => $buyer['email'],
+        'customers_email_address' => $buyer->getEmail(),
         'customers_default_address_id' => '0',
         'customers_telephone' => '',
         'customers_password' => $password,
@@ -49,7 +49,7 @@ if ($r = xtc_db_fetch_array($rs)) {
         'customers_info_id' => $customerId,
     ]);
     
-    $address = new AmazonPayApiSdkExtension\Struct\Address($buyer['shippingAddress']);
+    $address = $buyer->getShippingAddress();
     $addressBookSqlArray = $accountHelper->convertAddressToArray($address);
     
     $addressId = (int)$accountHelper->createAddress($address, $customerId);
