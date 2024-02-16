@@ -34,7 +34,7 @@ class ConfigHelper
     public function getShopVersion()
     {
         if (!defined('PROJECT_MAJOR_VERSION')) {
-            require_once DIR_FS_CATALOG . 'admin/includes/version.php';
+            require_once DIR_FS_CATALOG . (defined('DIR_ADMIN') ? DIR_ADMIN : 'admin/') . 'includes/version.php';
         }
 
         $version = PROJECT_MAJOR_VERSION . '.' . PROJECT_MINOR_VERSION;
