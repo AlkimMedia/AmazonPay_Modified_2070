@@ -53,9 +53,6 @@ if (!empty($_GET['amazonCheckoutSessionId'])) {
             'customers_info_id' => $_SESSION['customer_id'],
         ]);
         $_SESSION['customer_time'] = $passwordTime;
-        xtc_db_perform(TABLE_CUSTOMERS_INFO, [
-            'customers_info_id' => $_SESSION['customer_id'],
-        ]);
         $needsMainAddress        = true;
     }
     if ($shippingAddress = $checkoutSession->getShippingAddress()) {
